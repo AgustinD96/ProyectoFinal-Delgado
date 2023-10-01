@@ -1,0 +1,19 @@
+JavaScript: Asegúrate de que tienes un archivo JavaScript (index.js) vinculado en tu HTML. Este es el lugar donde implementarás la funcionalidad del carrito.
+
+Agregar productos al carrito: Necesitas escribir código JavaScript para manejar el evento de clic en los botones "Agregar al Carrito". Cuando un usuario hace clic en uno de estos botones, debes tomar la información del producto (nombre y precio) y agregarlo a una estructura de datos que represente el carrito. Puedes usar un array para esto.
+
+Actualizar la cantidad del carrito: Crea una función que actualice la cantidad visible en el botón del carrito cada vez que se agrega un producto al carrito. Esto se hace cambiando el contenido del elemento con el ID "cantidad-carrito" en tu HTML.
+
+Mostrar el carrito: Crea una función que muestre el contenido del carrito en alguna parte de tu página web. Puedes crear un contenedor div con un ID específico (como "carrito-contenedor") donde mostrarás los productos agregados.
+
+Calcular el total: Implementa una función para calcular el total de la compra en función de los productos agregados al carrito.
+
+Eliminar productos del carrito: Permite que los usuarios eliminen productos del carrito si así lo desean. Puedes agregar un botón "Eliminar" junto a cada producto en el carrito.
+
+Procesar la compra: Cuando el usuario esté listo para comprar, implementa una función que procese la compra, calcule el precio total y realice cualquier otro proceso necesario, como llenar un formulario de envío.
+
+Estilo CSS: Asegúrate de que el diseño de tu carrito de compras sea atractivo y fácil de usar. Puedes usar CSS para personalizar cómo se muestra el carrito y sus elementos.
+
+Persistencia de datos: Si deseas que los productos en el carrito persistan entre sesiones del usuario, considera utilizar cookies o almacenamiento local para guardar los datos del carrito.
+
+Recuerda vincular las funciones JavaScript adecuadamente a los eventos de clic y asegurarte de que tu código JavaScript pueda acceder a los elementos HTML correctamente usando selecciones por ID o clases.
